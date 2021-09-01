@@ -5,6 +5,10 @@ const routes = require("./routes");
 const expressLayouts = require("express-ejs-layouts");
 const { urlencoded } = require("express");
 
+require("ejs");
+require("express-ejs-layouts");
+
+
 const port = process.env.PORT || 3000;
 // const address = "localhost";
 // o local host é o nome padrão do computador e está ligado ao IP 127.0.0.1 (tcp-ip)
